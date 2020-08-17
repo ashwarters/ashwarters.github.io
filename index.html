@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Ashley Warters Portfolio</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
+    <!--Added links for icons for respective social medias-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -14,6 +17,7 @@
      <div class="container">
       <img src= "images/logo.jpg" alt="logo" class="logo">
         <nav>
+            <!--Each nav element can be clicked. Added hover option-->
              <ul>
                  <li>
                      <a href="#about-me">About Me</a>
@@ -28,27 +32,31 @@
             </nav>
         </div>
     </header>
-<hr />
+<hr />    
     <body>
         <div class="friendly-skies">
-            <a><img src= "images/friendlyskies.jpg" class= "airplane" alt="airplane"> </a>
+            <img src= "images/friendlyskies.jpg" class= "airplane" alt="airplane">
+            <div class="text-box">
+                <!--Added Subtitle to picture.-->
+                <h3>go somewhere, code anywhere!</h3>
+            </div>
         </div>
         <div class="content">
             <div class= "about-me" id="about-me">
                 <h2>About Me</h2>
-                <p><img src="images/profilepic.jpg" class= "profile-pic" alt="Ashley Warters">
-                    I am originally from Fort Lauderdale, FL but lived in NYC for 3 years before moving to my current residence in Philadelphia, PA. I'd describe myself as a flight attendant turned aspiring web developer. My passion is in design and content creation, so this page serves as a visual representation of my work thus far. If you have any questions or suggestions, please do not hesitate to reach out using any of the links below.
+                    <a><img src="images/profilepic.jpg" class= "profile-pic" alt="Ashley Warters"></a>
+                    <p>I am originally from Fort Lauderdale, FL but lived in NYC for 3 years before moving to my current residence in Philadelphia, PA. I'd describe myself as a flight attendant turned aspiring web developer. My passion is in design and content creation, so this page serves as a visual representation of my work thus far. If you have any questions or suggestions, please do not hesitate to reach out using any of the links below.
                 </p>
             </div>
             <div class="projects" id="projects">
                 <h2> Projects</h2>
-                <!--Link RunBuddy-->
+                <!--Linked RunBuddy and Horiseon-->
                 <ul>
                     <li>
-                        <a href="#run-buddy"> Run Buddy</a>
+                        <a href="https://ashwarters.github.io/run-buddy-refactor/" class=run-buddy> Run Buddy</a>
                     </li>
                     <li>
-                        <a href="#horiseon"> Horiseon</a>
+                        <a href="https://ashwarters.github.io/horiseon-refactor/"> Horiseon</a>
                     </li>
                     <li>
                         <a href="#placeholder1">Placeholder 1</a>
@@ -57,15 +65,15 @@
                         <a href="#placeholder2"> Placeholder 2</a>
                     </li>
                 </ul>
-            </div>
+            </div>           
             <div class= "contact" id="contact">
                 <h2>Contact</h2>
                 <ul>
                     <li>
-                        <a href="#phone"> 954-937-3248</a>
+                        <a href="#phone"> <i class="fa fa-phone"></i></a>
                     </li>
                     <li>
-                        <a href="mailto:ashwarters@gmail.com"> ashwarters@gmail.com</a>
+                        <a href="mailto:ashwarters@gmail.com"> <i class="fa fa-envelope"></i></a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/ashley-warters-a54445176/"><i class="fa fa-linkedin"></i></a>
