@@ -62,7 +62,7 @@ nav a:hover{
     bottom:20px;
     right:20px;
     color:white;
-    padding -left: 20px;
+    padding-left: 20px;
     padding-right:20px;
 }
 .airplane{
@@ -110,8 +110,33 @@ h2{
 .projects ul{
     list-style: none;
 }
+.projects li{
+    float: left;
+}
 .run-buddy{
-
+    display: block;
+}
+.run-buddy-link{
+    height: 250px;
+    width: 200px;
+    padding-right: 100px;
+}
+.horiseon{
+    display: block;
+}
+.horiseon-link{
+    height: 100px;
+    width: 150px;
+}
+.placeholder1{
+        display: block;
+        margin: 0;
+        padding: 50px;
+}
+.placeholder2{
+    display: block;
+    margin: 0;
+    padding: 50px;
 }
 .contact{
     text-align: right;
